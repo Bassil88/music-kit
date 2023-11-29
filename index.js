@@ -1,4 +1,4 @@
-/*let numberOfDrumButtons = document.querySelectorAll(".drum").length;
+let numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (let i = 0; i < numberOfDrumButtons; i++) {
 
@@ -78,10 +78,10 @@ function buttonAnimation(currentKey) {
     activeButton.classList.remove("pressed");
   }, 100);
 
-}*/
+}
 
 
-$(".drum").on("click", function () {
+/*$(".drum").on("click", function () {
     makeSound(this.innerHTML);
 
     buttonAnimation(this.innerHTML);
@@ -143,5 +143,5 @@ function makeSound(key) {
     default:
       console.log(key);
   }
-}
+}*/
 
